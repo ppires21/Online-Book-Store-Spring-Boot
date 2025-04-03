@@ -24,6 +24,7 @@ public class Subcategory {
     @JoinColumn(name="category_id")
     private Category category;
 
-    // @OneToMany(mappedBy = "subcategory_id")
-    // private Book book;
+    // ISTO ESTAVA EM COMENTÁRIO
+    //@OneToMany(mappedBy = "subcategory_id")
+    //private Book book;
 }

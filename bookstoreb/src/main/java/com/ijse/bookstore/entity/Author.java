@@ -21,6 +21,8 @@ public class Author {
     @Column(unique = true , nullable = false)
     private String authorName;
 
-    // @OneToMany(mappedBy = "authorid")
-    // private Book book;
+
+    // ISTO ESTAVA EM COMENTÁRIO
+    //@OneToMany(mappedBy = "authorid")
+    //private Book book;
 }

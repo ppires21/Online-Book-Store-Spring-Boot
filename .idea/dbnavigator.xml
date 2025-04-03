@@ -4,8 +4,17 @@
     <mappings />
     <preferences />
   </component>
+  <component name="DBNavigator.Project.DataEditorManager">
+    <record-view-column-sorting-type value="BY_INDEX" />
+    <value-preview-text-wrapping value="true" />
+    <value-preview-pinned value="false" />
+  </component>
   <component name="DBNavigator.Project.DatabaseAssistantManager">
-    <assistants />
+    <assistants>
+      <assistant-state connection-id="47580905-c020-41a5-afcb-84dcbd583e9a" default-profile-name="" selected-profile-name="" selected-model-name="" assistant-type="GENERIC" selected-action="SHOW_SQL" availability="UNAVAILABLE" acknowledgement="NONE">
+        <messages />
+      </assistant-state>
+    </assistants>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
@@ -18,8 +27,19 @@
       <console name="Connection.books" type="STANDARD" schema="mysql" session="Main" />
     </connection>
   </component>
+  <component name="DBNavigator.Project.DatabaseEditorStateManager">
+    <last-used-providers />
+  </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
+  </component>
+  <component name="DBNavigator.Project.DatabaseSessionManager">
+    <connection id="47580905-c020-41a5-afcb-84dcbd583e9a" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="47580905-c020-41a5-afcb-84dcbd583e9a" dataset="bookstore.book" active-filter-id="" />
+    <filter-actions connection-id="47580905-c020-41a5-afcb-84dcbd583e9a" dataset="bookstore.author" active-filter-id="" />
+    <filter-actions connection-id="47580905-c020-41a5-afcb-84dcbd583e9a" dataset="bookstore.category" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -33,7 +53,7 @@
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="9.2" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
@@ -48,7 +68,7 @@
           <token-type value="" />
           <token-config-file value="" />
           <token-profile value="" />
-          <session-user value="" />
+          <session-user value="root@localhost" />
         </database>
         <properties>
           <auto-commit value="false" />

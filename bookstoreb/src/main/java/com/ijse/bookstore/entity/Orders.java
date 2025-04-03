@@ -27,7 +27,8 @@ public class Orders {
     @Column
     private double totalPrice;
 
-    // @ManyToOne
-    // @JoinColumn(name = "shippingorder_id")
-    // private ShippingOrder shippingOrder;
+    // ISTO ESTAVA EM COMENTÁRIO
+    //@ManyToOne
+    //@JoinColumn(name = "shippingorder_id")
+    //private ShippingOrder shippingOrder;
 }
